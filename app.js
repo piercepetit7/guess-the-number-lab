@@ -31,7 +31,7 @@ const game = {
         } else {
             msg = `your guess is too ${this.prevGuesses[this.prevGuesses.length - 1] > this.secretNum ? "high" : "low" }\nPrevious guesses: ${this.prevGuesses.join(",")}`;
         } alert(msg);
-    },// had to look at solution to get how to structure this i felt like i could think of what yall wanted out of the task 
+    },// had to look at solution to get how to structure this i felt like i couldnt think of what yall wanted out of the task 
 };
 game.play();
 
